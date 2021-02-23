@@ -1,0 +1,2 @@
+var OriginTitle=document.title;var titleTime;document.addEventListener('visibilitychange',function(){if(document.hidden){$('[rel="icon"]').attr('href',"https://gitee.com/wmz1024/pic1/raw/master/img/Sg4C26ZJN8wtxX1.png");document.title='我相信你还会回来的！'+OriginTitle;clearTimeout(titleTime);}
+else{$('[rel="icon"]').attr('href',"https://gitee.com/wmz1024/pic1/raw/master/img/Sg4C26ZJN8wtxX1.png");document.title='哈哈，我就知道！'+OriginTitle;titleTime=setTimeout(function(){document.title=OriginTitle;},2000);}});
