@@ -1,0 +1,15 @@
+{
+  "name": "Wblog PWA",
+  "short_name": "Wblog",
+  "display": "standalone",
+  "start_url": "https://wmz.link",
+  "theme_color": "#8888ff",
+  "background_color": "#aaaaff",
+  "icons": [
+    {
+      "src": "https://wmzwsa.xyz",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    }
+  ]
+}
